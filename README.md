@@ -8,7 +8,7 @@ this is a Journal application that allows users to log in and manage journal ent
 
 ## Live Demo
 
-please note: when you using the app, you may see some delay to make new entry or when the changes update. that is happen from openAi API, so be patient and don't refresh or reload the page.
+please note: when you are using the app, you may see some delay to make new entry or when the changes are updating. that is happening from openAi API, so be patient and don't refresh or reload the page.
 
 click on the link to [see the demo](https://fulltack-ai-app-nextjs-1.vercel.app)
 
