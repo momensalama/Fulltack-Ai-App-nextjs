@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Name
 
-## Getting Started
+fullstack mood app with Ai
 
-First, run the development server:
+## Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+this is a Journal application that allows users to log in and manage journal entries with the standard CRUD operations. The entries are analyzed and given an AI-generated sentiment value, summary, and color.
+
+## Live Demo
+
+please note: when you using the app, you may see some delay to make new entry or when the changes update. that is happen from openAi API, so be patient and don't refresh or reload the page.
+
+click on the link to [see the demo](https://fulltack-ai-app-nextjs-1.vercel.app)
+
+## Setup
+
+```
+git clone https://github.com/momensalama/Fulltack-Ai-App-nextjs.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Main Functionalities
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Authentication
+- sign in
+- sign up
+- make entry
+- using search bar to get any information about your journals using GPT-3.5 trubo.
+- update the status of mood, summary, color ..etc using GPT-3.5 trubo.
+- analyze entries and draw a chart based on AI-generated sentiment value.
 
-## Learn More
+### Packages
 
-To learn more about Next.js, take a look at the following resources:
+- **railway** : backend serverless.
+- **clerk** : for sign in, sign up, and \*\*Authentication\*\*.
+- **langchain** : for make using Ai prompets easily to impelement.
+- **react-autosave**: for making autosave changes while write the entry.
+- **zod**: to supply the LLM with a schema for the results returned from the LMM.
+- **prisma**.
+- **recharts**.
+- **vitest**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Overview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Journal application that allows users to log in and manage journal entries with the standard CRUD operations. The entries are analyzed and given an AI-generated sentiment value, summary, and color.
